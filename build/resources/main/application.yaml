@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+config:
+  aws:
+    region: eu-west-1
+    dynamodb:
+      url: http://localhost:8000/
+      access-key: localstack
+      secret-key: localstack
